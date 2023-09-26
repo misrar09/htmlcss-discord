@@ -10,8 +10,10 @@
 header {
 
     height: 500px;
-    background-color: lightblue;
+    background-image:url("../discord-assets/img/jumbo.png");
+    background-size: cover;
 }
+
 
 .sub-header1 {
     display: flex;
@@ -24,33 +26,36 @@ header {
 
 .flex-container-section1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 50%;
-    width: 60%;
-    background-color: orange;
+    width: 70%;
+
 
 }
 
-.link {
-    width: 60%;
+
+.login {
     text-align: center;
-}
-
-.logo,
-.login {
-    width: 20%;
-}
-
-.login {
-    text-align: right;
-}
-
-header p {
-    font-size: 15px;
-    padding: 5px;
-    border-style: dashed
+    background-color: white;
+    border-radius:50px 50px 50px 50px;
     
 }
+
+.login p{
+    font-size: 12px;
+    font-weight: 550;
+    padding: 8px 10px;
+}
+
+.link p {
+    font-size: 15px;
+    padding: 5px;
+    word-spacing: 35px;
+    color: white;
+    
+    
+}
+
 
 
 .section2 {
@@ -58,15 +63,69 @@ header p {
     justify-content: center;
     align-items: center;
     height: 430px;
-    background-color: navy;
+
 }
 
-.pink {
+.heading{
     width: 45%;
     height: 80%;
-    background-color: rgb(236, 103, 236);
-    border-style: dashed
+
 }
+
+.heading h1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.heading> p{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.subsection2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button-scarica{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 20px;
+
+}
+.scarica{
+    padding: 10px 8px;
+    font-weight: 550;
+
+}
+
+.long-down{
+    width: 7px ;
+    height: 37px ;
+}
+
+.browser{
+
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
 
 /* --------------------------------------------- */
 /* main style */
