@@ -10,7 +10,7 @@
 header {
 
     height: 500px;
-    background-image:url("../discord-assets/img/jumbo.png");
+    background-image: url("../discord-assets/img/jumbo.png");
     background-size: cover;
 }
 
@@ -37,11 +37,11 @@ header {
 .login {
     text-align: center;
     background-color: white;
-    border-radius:50px 50px 50px 50px;
-    
+    border-radius: 50px 50px 50px 50px;
+
 }
 
-.login p{
+.login p {
     font-size: 12px;
     font-weight: 550;
     padding: 8px 10px;
@@ -49,14 +49,15 @@ header {
 
 .link p {
     font-size: 15px;
+    font-weight: 550;
     padding: 5px;
     word-spacing: 35px;
     color: white;
-    
-    
+
+
 }
 
-
+/* Down Header Section */
 
 .section2 {
     display: flex;
@@ -66,32 +67,32 @@ header {
 
 }
 
-.heading{
+.heading {
     width: 45%;
     height: 80%;
 
 }
 
-.heading h1{
+.heading h1 {
     font-size: 35px;
     color: white;
     text-align: center;
 }
 
-.heading> p{
+.heading>p {
     color: white;
     text-align: center;
     line-height: 30px;
 }
 
-.subsection2{
+.subsection2 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
 
-.button-scarica{
+.button-scarica {
     display: flex;
     justify-content: center;
     background-color: white;
@@ -101,18 +102,19 @@ header {
     margin-right: 20px;
 
 }
-.scarica{
+
+.scarica {
     padding: 10px 8px;
     font-weight: 550;
 
 }
 
-.long-down{
-    width: 7px ;
-    height: 37px ;
+.long-down {
+    width: 7px;
+    height: 37px;
 }
 
-.browser{
+.browser {
 
     background-color: black;
     color: white;
@@ -128,14 +130,14 @@ header {
 
 
 /* --------------------------------------------- */
-/* main style */
+
+/* main style Section 1*/
 
 .main-section1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 500px;
- 
-
 }
 
 .img-sec1 {
@@ -143,8 +145,6 @@ header {
     width: 40%;
     height: 85%;
 
-
-  
 }
 
 .text-sec1 {
@@ -154,31 +154,29 @@ header {
 
 }
 
-.text-sec1 h1{
+.text-sec1 h1 {
     font-size: 35px;
 }
 
-.img-study-group{
+.img-study-group {
 
-    width: 100% ;
+    width: 100%;
 }
 
 
 
 
-
-
-
-
+/* Main Style Section 2 */
 
 .main-section2 {
     display: flex;
     justify-content: center;
     height: 500px;
     align-items: center;
-    background-color: rgb(187, 182, 182);
+    background-color: rgb(245, 245, 245);
 
 }
+
 
 .text-sec2 {
     width: 20%;
@@ -186,24 +184,23 @@ header {
     padding: 30px;
 }
 
-.text-sec2 h1{
+.text-sec2 h1 {
     font-size: 35px;
 }
 
 .img-sec2 {
     width: 40%;
     height: 85%;
- 
+
 }
 
-.img-voice-control{
+.img-voice-control {
     width: 100%;
 }
 
 
 
-
-
+/* Main Style Section 2 */
 
 .main-section3 {
     display: flex;
@@ -225,27 +222,25 @@ header {
 
 }
 
-.text-sec3 h1{
+.text-sec3 h1 {
     font-size: 35px;
 }
 
-.img-coach{
+.img-coach {
     width: 100%;
 }
 
 
 
 
-
-
-
+/* Main Style Section 2 */
 
 .main-section4 {
     display: flex;
     justify-content: center;
-    min-height: 800px;
+    min-height: 950px;
     align-items: center;
-    background-color: rgb(187, 182, 182);
+    background-color: rgb(245, 245, 245);
 
 }
 
@@ -256,15 +251,15 @@ header {
 }
 
 
-.box-sec4 h1{
+.box-sec4 h1 {
     font-size: 35px;
 }
 
-.img-devices{
+.img-devices {
     width: 100%;
 }
 
-.button-scarica-2{
+.button-scarica-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,12 +268,12 @@ header {
     width: 170px;
     height: 40px;
     border-radius: 50px;
-    margin: 30px 0px 60px 350px;
+    margin: 30px 0px 40px 350px;
 }
 
-.long-down2{
-    width: 7px ;
-    height: 37px ;
+.long-down2 {
+    width: 7px;
+    height: 37px;
     filter: brightness(0) invert(1);
 
 }
@@ -287,14 +282,16 @@ header {
 
 
 /* ---------------------------------------------- */
-/* Footer Style */
+
+
+/* Footer Style  Section 1*/
 .footer-section1 {
     display: flex;
     justify-content: center;
     height: 400px;
     align-items: flex-start;
     background-color: rgb(35, 34, 34);
-    padding: 20px;  
+    padding: 20px;
 }
 
 .left-sec1 {
@@ -304,38 +301,37 @@ header {
 
 }
 
-.change-lang{
+.change-lang {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: 15px;
 }
 
-.left-sec1 p{
+.left-sec1 p {
     color: white;
     font-size: 10px;
 }
 
 
-.img-ita{
+.img-ita {
     width: 20px;
     height: 15px;
 
 }
 
 
-
-.left-sec1 h2{
+.left-sec1 h2 {
     color: rgba(123, 123, 235, 0.89);
 }
 
 
-.ang-down{
+.ang-down {
     width: 15px;
     filter: brightness(0) invert(1);
 }
 
-.img-icons{
+.img-icons {
     width: 17px;
     margin-top: 10px;
     margin-right: 10px;
@@ -343,10 +339,7 @@ header {
 }
 
 
-
-
-
-.teal-sec1 {
+.OtherColumns-sec1 {
 
     width: 11.25%;
     height: 90%;
@@ -356,12 +349,12 @@ header {
 
 }
 
-.p-blu{
+.p-blu {
     color: rgba(123, 123, 235, 0.89);
     font-weight: 550;
 }
 
-.teal-sec1 p:not(.p-blu){
+.OtherColumns-sec1 p:not(.p-blu) {
     color: white;
 }
 
@@ -371,6 +364,8 @@ hr {
     border-color: rgb(187, 182, 182);
 }
 
+
+/* Footer Style  Section 1*/
 .footer-section2 {
     display: flex;
     justify-content: center;
