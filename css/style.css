@@ -134,24 +134,42 @@ header {
     display: flex;
     justify-content: center;
     height: 500px;
-    align-items: center;
+ 
 
 }
 
-.blue-sec1 {
+.img-sec1 {
 
-    background-color: rgb(63, 121, 238);
     width: 40%;
     height: 85%;
-    border-style: dashed
+
+
+  
 }
 
-.lightpink-sec1 {
-    background-color: lightpink;
+.text-sec1 {
     width: 20%;
     height: 85%;
-    border-style: dashed
+    padding: 30px;
+
 }
+
+.text-sec1 h1{
+    font-size: 35px;
+}
+
+.img-study-group{
+
+    width: 100% ;
+}
+
+
+
+
+
+
+
+
 
 .main-section2 {
     display: flex;
@@ -162,20 +180,30 @@ header {
 
 }
 
-.blue-sec2 {
-
-    background-color: rgb(63, 121, 238);
+.text-sec2 {
     width: 20%;
     height: 85%;
-    border-style: dashed
+    padding: 30px;
 }
 
-.lightpink-sec2 {
-    background-color: lightpink;
+.text-sec2 h1{
+    font-size: 35px;
+}
+
+.img-sec2 {
     width: 40%;
     height: 85%;
-    border-style: dashed
+ 
 }
+
+.img-voice-control{
+    width: 100%;
+}
+
+
+
+
+
 
 .main-section3 {
     display: flex;
@@ -185,67 +213,159 @@ header {
 
 }
 
-.blue-sec3 {
+.img-sec3 {
 
-    background-color: rgb(63, 121, 238);
     width: 40%;
     height: 85%;
-    border-style: dashed
 }
 
-.lightpink-sec3 {
-    background-color: lightpink;
+.text-sec3 {
     width: 20%;
     height: 85%;
-    border-style: dashed
+
 }
+
+.text-sec3 h1{
+    font-size: 35px;
+}
+
+.img-coach{
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 .main-section4 {
     display: flex;
     justify-content: center;
-    height: 800px;
+    min-height: 800px;
     align-items: center;
     background-color: rgb(187, 182, 182);
 
 }
 
-.green-sec4 {
-    background-color: green;
+.box-sec4 {
     width: 60%;
     height: 90%;
-    border-style: dashed
+    text-align: center;
 }
+
+
+.box-sec4 h1{
+    font-size: 35px;
+}
+
+.img-devices{
+    width: 100%;
+}
+
+.button-scarica-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(159, 159, 237, 0.826);
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 30px 0px 60px 350px;
+}
+
+.long-down2{
+    width: 7px ;
+    height: 37px ;
+    filter: brightness(0) invert(1);
+
+}
+
+
+
 
 /* ---------------------------------------------- */
 /* Footer Style */
 .footer-section1 {
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 400px;
     align-items: flex-start;
     background-color: rgb(35, 34, 34);
-
+    padding: 20px;  
 }
 
-.redpink-sec1 {
-    background-color: rgb(248, 129, 149);
+.left-sec1 {
     width: 15%;
     height: 90%;
-    border-style: dashed;
     margin-top: 15px;
 
 }
+
+.change-lang{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.left-sec1 p{
+    color: white;
+    font-size: 10px;
+}
+
+
+.img-ita{
+    width: 20px;
+    height: 15px;
+
+}
+
+
+
+.left-sec1 h2{
+    color: rgba(123, 123, 235, 0.89);
+}
+
+
+.ang-down{
+    width: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.img-icons{
+    width: 17px;
+    margin-top: 10px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+}
+
+
+
+
 
 .teal-sec1 {
 
-    background-color: teal;
     width: 11.25%;
     height: 90%;
-    border-style: dashed;
-    border-color: white;
     margin-top: 15px;
+    line-height: 30px;
+    font-size: 13px;
+
 }
+
+.p-blu{
+    color: rgba(123, 123, 235, 0.89);
+    font-weight: 550;
+}
+
+.teal-sec1 p:not(.p-blu){
+    color: white;
+}
+
+
 
 hr {
     border-color: rgb(187, 182, 182);
@@ -264,17 +384,16 @@ hr {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: rgb(21, 229, 181);
     width: 60%;
 }
 
-.footer-logo,
 .footer-button {
-    background-color: rgb(243, 157, 171);
+    background-color: rgba(159, 159, 237, 0.826);
+    border-radius: 50px;
 }
 
-footer p {
-    font-size: 15px;
-    padding: 2px 8px 2px 8px;
-    border-style: dashed
+.footer-subsection2 p {
+    font-size: 13px;
+    color: white;
+    padding: 7px 10px 7px 10px;
 }
